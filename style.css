@@ -1,0 +1,113 @@
+* {
+    margin: 0px auto;
+}
+
+body {
+    text-align: center;
+    margin-top: 100px;
+    background-color: white;
+}
+
+.checkHeader {
+    color: black;
+    margin-top:1rem;
+}
+
+.checkerBoard {
+    height: 100vh;
+    max-width: 1000px;
+}
+
+.board {
+    margin-top: -40px;
+  }
+
+.row {
+    display: inline-flex;
+}
+
+.row2 {
+    display: inline-flex;
+}
+
+.grey {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(147, 139, 139);
+}
+
+.brown {
+    width: 100px;
+    height: 100px;
+    background-color: #654321;
+}
+
+.space {
+    height: 50px;
+}
+/* flag css*/
+
+.flagHeader {
+    color:black;
+    margin-top:10rem;
+}
+
+.flag {
+    height: 100vh;
+}
+
+.redLine {
+    color: red;
+    background-color: red;
+}
+
+.whiteLine {
+    background-color: white;
+    color: white;
+}
+.stars {
+     background-color: darkblue;
+     font-size: 22px;
+     color: white;
+}
+
+.text {
+    padding:10px;
+    margin-bottom: 20px;
+    height: 98px;
+    width: 240px;
+    
+}
+
+/* Medium */
+.productsRowOne {
+    display: grid;
+    margin: 2em;
+}
+
+.productsRowTwo {
+    display: grid;
+    margin: 2em;
+}
+
+.productsRow figure figcaption small {
+    color: black;
+}
+
+.products figure {
+    border: 2px solid white;
+    margin: 1em;
+}
+
+.products figure a img {
+    border: 1px solid gray;
+}
+
+.price {
+    font-size: 2em;
+}
+
+.prodHeader {
+    color:black;
+    margin-top:-14rem;
+}
